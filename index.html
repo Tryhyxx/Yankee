@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yankee & Panther - Entrenamiento Canino Táctico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="splash">
+    <div class="logo-container">
+      <img src="https://i.imgur.com/EW4Z7Ws.png" alt="Logo Pastor Belga" class="logo" />
+      <h1>YANKEE & PANTHER</h1>
+      <p>Entrenamientos tácticos • Estilo bélico</p>
+    </div>
+  </div>
+
+  <header>
+    <div class="flag"></div>
+    <div class="brand">
+      <img src="https://i.imgur.com/EW4Z7Ws.png" alt="Logo" class="mini-logo" />
+      <div>
+        <h2>YANKEE & PANTHER</h2>
+        <p>Entrenamiento canino profesional</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#cursos">Cursos</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#testimonios">Testimonios</a>
+      <button id="chatToggle">Chat</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <h1>Entrenamiento Canino Táctico Profesional</h1>
+      <p>Conviértete en un experto con Yankee & Panther</p>
+      <button class="cta">Comenzar ahora</button>
+    </section>
+
+    <section id="cursos">
+      <h2>Cursos Disponibles</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Curso Básico</h3>
+          <p>$4500 MXN • 1 semana</p>
+          <ul>
+            <li>4 sesiones intensivas</li>
+            <li>Guía PDF</li>
+            <li>Soporte 2 semanas</li>
+          </ul>
+          <button>Contratar</button>
+        </div>
+        <div class="card">
+          <h3>Curso Avanzado</h3>
+          <p>$1990 MXN • 3 semanas</p>
+          <ul>
+            <li>8 sesiones tácticas</li>
+            <li>Plan personalizado</li>
+            <li>Soporte 1 mes</li>
+          </ul>
+          <button>Contratar</button>
+        </div>
+        <div class="card">
+          <h3>Curso de Búsqueda</h3>
+          <p>$3490 MXN • 4 semanas</p>
+          <ul>
+            <li>Rastreo y recuperación</li>
+            <li>Entrenamiento especializado</li>
+            <li>Soporte 1 mes</li>
+          </ul>
+          <button>Contratar</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo">
+      <h2>Conoce al Equipo</h2>
+      <div class="team">
+        <img src="https://i.imgur.com/0zT4N2Z.jpeg" alt="Yankee y Panther">
+        <p><strong>Yankee</strong> - Entrenador certificado y creador de contenido.<br />
+        <strong>Panther</strong> - Pastor Belga Malinois, especialista en rastreo.</p>
+      </div>
+    </section>
+
+    <section id="testimonios">
+      <h2>Testimonios</h2>
+      <div class="testimonial">
+        <p>"Gracias a Yankee & Panther, mi perro ahora responde a todas mis órdenes."</p>
+        <span>- Luis Hernández</span>
+      </div>
+      <div class="testimonial">
+        <p>"El curso básico fue excelente, en solo una semana vi resultados reales."</p>
+        <span>- María Torres</span>
+      </div>
+    </section>
+  </main>
+
+  <div id="chatbot" class="hidden">
+    <div class="chat-header">Chatbot Yankee & Panther</div>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-input">
+      <input type="text" id="chatMessage" placeholder="Escribe..." />
+      <button id="sendMessage">Enviar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
